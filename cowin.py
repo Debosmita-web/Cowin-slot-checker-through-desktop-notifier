@@ -9,7 +9,7 @@ import webbrowser
 from win10toast_click import ToastNotifier
 
 age = 21
-pincodes = ["700054","462003"]
+pincodes = ["700054"]
 print_flag = 'Y'
 num_days = 2
 
