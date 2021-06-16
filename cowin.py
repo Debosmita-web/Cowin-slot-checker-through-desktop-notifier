@@ -1,7 +1,4 @@
 import requests
-#import pygame , sys, time
-from pygame import mixer
-#pygame.mixer.pre_init(44100, 16, 2, 4096) #frequency, size, channels, buffersize
 from datetime import datetime,timedelta
 import time
 import json
@@ -73,9 +70,7 @@ while (True):
         time.sleep(60)
         
     else:
-        mixer.init()
-        mixer.music.load('sound_dingdong.wav')
-        mixer.music.play()
+        
         print("Search Completed!")
 
         def open_url():
